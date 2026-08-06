@@ -1,7 +1,12 @@
 [
   {
     "category": "Controls & Estimation",
-    "skills": ["PID Control", "LQR", "Kalman Filtering", "Linearization"]
+    "skills": [
+      "PID Control",
+      "LQR",
+      "Kalman Filtering",
+      "Linearization"
+    ]
   },
   {
     "category": "Simulation & Numerical Methods",
@@ -15,6 +20,12 @@
   },
   {
     "category": "Languages & Tools",
-    "skills": ["Python", "NumPy", "SciPy", "Matplotlib", "Git"]
+    "skills": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Matplotlib",
+      "Git"
+    ]
   }
 ]
