@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0e14;
+  --background-elevated: #10161f;
+  --foreground: #e6e9ef;
+  --foreground-muted: #8b95a5;
+  --border: #1e2733;
+  --accent: #4cc2d9;
+  --accent-foreground: #06141a;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #fbfbfa;
+    --background-elevated: #f2f2f0;
+    --foreground: #14181f;
+    --foreground-muted: #565f6e;
+    --border: #dde1e6;
+    --accent: #0e7490;
+    --accent-foreground: #ffffff;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+html {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-accent-foreground);
+}
+
+a {
+  text-underline-offset: 3px;
+}

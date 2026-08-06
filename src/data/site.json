@@ -1,0 +1,17 @@
+{
+  "name": "[Your Name]",
+  "positioning": "Controls/GNC engineer who thinks in systems terms.",
+  "links": {
+    "github": "https://github.com/your-username",
+    "linkedin": "https://linkedin.com/in/your-profile",
+    "resumeUrl": "/resume.pdf",
+    "email": "you@example.com"
+  },
+  "about": {
+    "paragraphs": [
+      "I'm an Aerospace Engineering + Business student, Class of [graduation year], focused on the controls and systems side of spacecraft and aircraft design. I'm drawn to problems where the math has to close the loop with hardware — not just simulate cleanly on paper.",
+      "I most recently worked as a production engineering intern at an aerospace hardware company, where I supported additive manufacturing (FDM/SLS) process documentation and built in-house tooling to track parts through production.",
+      "Right now I'm going deep on proximity operations and in-space manufacturing — the guidance, navigation, and control problems that show up when spacecraft have to operate near each other or build things on-orbit. The projects below are how I'm building that depth."
+    ]
+  }
+}

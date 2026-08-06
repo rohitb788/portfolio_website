@@ -1,0 +1,12 @@
+[
+  {
+    "company": "[Company Name]",
+    "role": "Production Engineering Intern",
+    "dateRange": "[Summer 20XX]",
+    "bullets": [
+      "Documented FDM and SLS additive manufacturing process steps to standardize production workflows.",
+      "Built in-house tooling (Google Apps Script + Slack API) to track parts through the production pipeline.",
+      "[Add a third bullet if there's a concrete contribution worth surfacing — keep it specific, not a generic responsibility.]"
+    ]
+  }
+]

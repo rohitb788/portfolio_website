@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Controls & Estimation",
+    "skills": ["PID Control", "LQR", "Kalman Filtering", "Linearization"]
+  },
+  {
+    "category": "Simulation & Numerical Methods",
+    "skills": [
+      "6-DOF Rigid-Body Dynamics",
+      "Quaternion Kinematics",
+      "RK4 Integration",
+      "Two-Body Orbital Mechanics",
+      "Clohessy-Wiltshire Relative Motion"
+    ]
+  },
+  {
+    "category": "Languages & Tools",
+    "skills": ["Python", "NumPy", "SciPy", "Matplotlib", "Git"]
+  }
+]
