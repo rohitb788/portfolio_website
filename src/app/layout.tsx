@@ -17,7 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 const site = getSite();
 
-const siteUrl = "https://example.com"; // TODO: replace with your production domain
+const siteUrl = "https://portfolio-website-blond-omega-44.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
