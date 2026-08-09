@@ -7,10 +7,22 @@
     "problem": "Simulates full nonlinear 6-DOF quadrotor flight dynamics to validate a cascaded control architecture — an inner-loop PID attitude controller and an outer-loop LQR position controller — under [specific test condition, e.g. step commands and/or disturbance rejection — TBD].",
     "method": "Attitude kinematics are propagated using quaternions to avoid gimbal lock; translational and rotational dynamics follow the full nonlinear Newton-Euler rigid-body equations. The combined state is integrated with a fixed-step 4th-order Runge-Kutta (RK4) integrator. The inner attitude loop uses cascaded PID; the outer position/velocity loop uses LQR gains from a linearization about hover. [Add specifics once finalized: full state vector definition, linearization point, gain-tuning approach, disturbance/noise model.]",
     "metrics": [
-      { "label": "Settling time (step response)", "value": "[TBD]" },
-      { "label": "Overshoot", "value": "[TBD]" },
-      { "label": "Steady-state error", "value": "[TBD]" },
-      { "label": "RMS attitude tracking error", "value": "[TBD]" }
+      {
+        "label": "Settling time (step response)",
+        "value": "[TBD]"
+      },
+      {
+        "label": "Overshoot",
+        "value": "[TBD]"
+      },
+      {
+        "label": "Steady-state error",
+        "value": "[TBD]"
+      },
+      {
+        "label": "RMS attitude tracking error",
+        "value": "[TBD]"
+      }
     ],
     "figure": {
       "src": "",
@@ -18,27 +30,27 @@
       "caption": "[Figure placeholder — add controller response plot (commanded vs. actual trajectory, error convergence) after a validation run.]"
     },
     "repoUrl": "https://github.com/your-username/quadrotor-6dof-gnc-sim",
-    "techStack": ["Python", "NumPy", "SciPy", "Matplotlib"]
+    "techStack": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Matplotlib"
+    ]
   },
   {
-    "slug": "spacecraft-proximity-ops-sim",
-    "title": "Multi-Phase Spacecraft Dynamics Simulator",
-    "oneLiner": "Two-body orbital mechanics through Clohessy-Wiltshire proximity operations, with an attitude control loop across all phases.",
-    "whatThisProves": "[TBD — one sentence for a GNC/controls reviewer: what this demonstrates about handling multi-phase mission dynamics, from far-field orbital mechanics down to relative-motion proximity control.]",
-    "problem": "Simulates a multi-phase spacecraft mission — two-body orbital propagation, transition to a relative-motion frame, and closed-loop proximity operations — to model a rendezvous scenario with [specific target/chaser geometry, reference orbit — TBD].",
-    "method": "Far-field motion is propagated with two-body orbital mechanics; the proximity-operations phase uses the linearized Clohessy-Wiltshire equations for relative motion about a circular reference orbit, closed with a control law [PID/LQR — TBD which, and why]. Attitude is controlled through the same simulator across all phases. All dynamics are integrated with RK4. [Add specifics once finalized: reference orbit parameters, initial relative state, control law derivation, delta-v budgeting approach.]",
-    "metrics": [
-      { "label": "Position tracking error at rendezvous", "value": "[TBD]" },
-      { "label": "Delta-v budget", "value": "[TBD]" },
-      { "label": "CW linearization error vs. nonlinear propagation", "value": "[TBD]" },
-      { "label": "Attitude settling time", "value": "[TBD]" }
-    ],
+    "slug": "project-trugrade",
+    "title": "Project TrueGrade",
+    "oneLiner": "Founding member of new University of Michigan project team developing a drone for construction site inspection services. Working on Structures and Sensors subteam.",
+    "whatThisProves": "[TBD]",
+    "problem": "",
+    "method": "",
+    "metrics": [],
     "figure": {
       "src": "",
-      "alt": "Relative-motion trajectory plot for the proximity operations phase, chaser position relative to target over time",
-      "caption": "[Figure placeholder — add relative-motion trajectory plot (chaser approach path, error convergence) after a validation run.]"
+      "alt": "",
+      "caption": "[Figure placeholder]"
     },
-    "repoUrl": "https://github.com/your-username/spacecraft-proximity-ops-sim",
-    "techStack": ["Python", "NumPy", "SciPy", "Matplotlib"]
+    "repoUrl": "",
+    "techStack": []
   }
 ]
