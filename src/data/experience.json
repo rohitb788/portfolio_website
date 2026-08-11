@@ -8,5 +8,25 @@
       "Built in-house manufactured parts tracking system to track and assess demand for different parts across different manufacturing processes.",
       "Implemented new engineering design for entire drone fleet (50+ drones)"
     ]
+  },
+  {
+    "company": "Tech Plus Consulting",
+    "role": "Project Manager",
+    "dateRange": "Jan. 2026 – April 2026",
+    "bullets": [
+      "Lead a cross‑functional tech consulting team by aligning scope, gathering requirements, and coordinating communication across the client, my team, and senior club leadership",
+      "Drove the redesign of the client’s internal processes by developing standardized templates, formal SWIs, and structured operational tools that strengthen consistency across development",
+      "Oversaw the creation of technical deliverables, including an automated dashboard, a refined financial model, and an organized data room, by translating requirements into actionable tasks and guiding my team through implementation to enhance speed and quality"
+    ]
+  },
+  {
+    "company": "Benzinga",
+    "role": "Business Development Intern",
+    "dateRange": "May 2025 – Aug. 2025",
+    "bullets": [
+      "Produced market‑focused content supporting daily coverage for 25M+ monthly readers, contributing to timely reporting and improved audience engagement",
+      "Engaged 20+ prospective partners through tailored outreach and custom sales pitches, strengthening Benzinga’s strategic pipeline and partnership funnel",
+      "Revised partnership contracts and reconciled revenue spreadsheets to improve onboarding clarity, streamline reporting, and support internal operational accuracy"
+    ]
   }
 ]
