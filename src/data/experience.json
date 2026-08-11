@@ -1,11 +1,11 @@
 [
   {
     "company": "Skyspecs",
-    "role": "Production Engineering Intern",
+    "role": "UAV Production Intern",
     "dateRange": "May 2026 - August 2026",
     "bullets": [
       "Documented FDM and SLS additive manufacturing process steps to standardize production workflows.",
-      "Built in-house tooling (Google Apps Script + Slack API) to track parts through the production pipeline.",
+      "Built in-house manufactured parts tracking system to track and assess demand for different parts across different manufacturing processes.",
       "Implemented new engineering design for entire drone fleet (50+ drones)"
     ]
   }
