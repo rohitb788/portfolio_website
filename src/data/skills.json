@@ -9,5 +9,11 @@
       "Matplotlib",
       "Git"
     ]
+  },
+  {
+    "category": "UAS",
+    "skills": [
+      "FAA 14 CFR Part 107 (small UAS) Licensed"
+    ]
   }
 ]
